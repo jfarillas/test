@@ -1,0 +1,10 @@
+{# app/Resources/views/products/floorplan.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}
+    <h4>Welcome to Joseph Ian Farillas' Product Floor Plan</h4>
+    <ul id="navigation">
+        {% for item in stationList %}
+            <li>{{ item.stationName }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

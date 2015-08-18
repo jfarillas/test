@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+products:
+    path:     /products
+    defaults: { _controller: AppBundle:Products:index }

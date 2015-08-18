@@ -1,0 +1,15 @@
+AppBundle\Entity\Picking_Station:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        stationName:
+            type: string
+            length: '50'
+            column: station_name
+    lifecycleCallbacks: {  }
